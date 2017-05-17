@@ -13,4 +13,6 @@
  *  设备类型
  */
 @property (assign, nonatomic, readonly) NSString *model;
+
++ (NSString *)getIMSI;
 @end

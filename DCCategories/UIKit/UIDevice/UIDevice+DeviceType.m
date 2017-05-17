@@ -8,7 +8,8 @@
 
 #import "UIDevice+DeviceType.h"
 #import <sys/utsname.h>
-
+#import <CoreTelephony/CTCarrier.h>
+#import <CoreTelephony/CTTelephonyNetworkInfo.h>
 @implementation UIDevice (DeviceType)
 - (NSString *)model {
     struct utsname systemInfo;
@@ -31,6 +32,8 @@
     if ([deviceString isEqualToString:@"iPhone7,2"])    return @"iPhone 6";
     if ([deviceString isEqualToString:@"iPhone8,1"])    return @"iPhone 6s";
     if ([deviceString isEqualToString:@"iPhone8,2"])    return @"iPhone 6s Plus";
+    if ([deviceString isEqualToString:@"iPhone9,1"])    return @"iPhone7";
+    if ([deviceString isEqualToString:@"iPhone9,2"])    return @"iPhone7Plus";
     // iPod
     if ([deviceString isEqualToString:@"iPod1,1"])      return @"iPod Touch 1G";
     if ([deviceString isEqualToString:@"iPod2,1"])      return @"iPod Touch 2G";
@@ -62,6 +65,22 @@
     if ([deviceString isEqualToString:@"x86_64"])       return @"Simulator";
     
     
-    return @"";
+    return deviceString;
 }
+
+
++ (NSString *)getIMSI{
+    
+    CTTelephonyNetworkInfo *info = [[CTTelephonyNetworkInfo alloc] init];
+    
+    CTCarrier *carrier = [info subscriberCellularProvider];
+    
+    NSString *mcc = [carrier mobileCountryCode];
+    NSString *mnc = [carrier mobileNetworkCode];
+    
+    NSString *imsi = [NSString stringWithFormat:@"%@%@", mcc, mnc];
+    
+    return imsi;
+}
+
 @end
