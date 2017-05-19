@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		558F6D391ECEFCC6000CA8B6 /* UIScrollView+ContentOffset.h in Headers */ = {isa = PBXBuildFile; fileRef = 558F6D371ECEFCC6000CA8B6 /* UIScrollView+ContentOffset.h */; };
+		558F6D3A1ECEFCC6000CA8B6 /* UIScrollView+ContentOffset.m in Sources */ = {isa = PBXBuildFile; fileRef = 558F6D381ECEFCC6000CA8B6 /* UIScrollView+ContentOffset.m */; };
 		55F27D4B1EC05C040034B4C5 /* DCCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F27D491EC05C040034B4C5 /* DCCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55F27DA91EC05D580034B4C5 /* Foundation_Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F27D521EC05D580034B4C5 /* Foundation_Categories.h */; };
 		55F27DAA1EC05D580034B4C5 /* NSDictionary+json.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F27D541EC05D580034B4C5 /* NSDictionary+json.h */; };
@@ -86,6 +88,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		558F6D371ECEFCC6000CA8B6 /* UIScrollView+ContentOffset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ContentOffset.h"; sourceTree = "<group>"; };
+		558F6D381ECEFCC6000CA8B6 /* UIScrollView+ContentOffset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ContentOffset.m"; sourceTree = "<group>"; };
 		55F27D461EC05C040034B4C5 /* DCCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F27D491EC05C040034B4C5 /* DCCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCCategories.h; sourceTree = "<group>"; };
 		55F27D4A1EC05C040034B4C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -432,6 +436,8 @@
 				55F27DA61EC05D580034B4C5 /* UIView+Capture.m */,
 				55F27DA71EC05D580034B4C5 /* UIView+Frame.h */,
 				55F27DA81EC05D580034B4C5 /* UIView+Frame.m */,
+				558F6D371ECEFCC6000CA8B6 /* UIScrollView+ContentOffset.h */,
+				558F6D381ECEFCC6000CA8B6 /* UIScrollView+ContentOffset.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -506,6 +512,7 @@
 				55F27DC31EC05D580034B4C5 /* Macros_ClangAttributes.h in Headers */,
 				55F27DE61EC05D580034B4C5 /* UITextField+image.h in Headers */,
 				55F27DAE1EC05D580034B4C5 /* NSString+base64.h in Headers */,
+				558F6D391ECEFCC6000CA8B6 /* UIScrollView+ContentOffset.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,6 +631,7 @@
 				55F27DCA1EC05D580034B4C5 /* UIButton+BadgeValue.m in Sources */,
 				55F27DCC1EC05D580034B4C5 /* UIButton+Block.m in Sources */,
 				55F27DE31EC05D580034B4C5 /* UINavigationItem+Extension.m in Sources */,
+				558F6D3A1ECEFCC6000CA8B6 /* UIScrollView+ContentOffset.m in Sources */,
 				55F27DD81EC05D580034B4C5 /* UIImage+Scale.m in Sources */,
 				55F27DDA1EC05D580034B4C5 /* UIImage+Square.m in Sources */,
 				55F27DD41EC05D580034B4C5 /* UIDevice+DeviceType.m in Sources */,
@@ -862,6 +870,7 @@
 				55F27E081EC05DBD0034B4C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
