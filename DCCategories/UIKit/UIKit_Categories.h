@@ -68,4 +68,6 @@
 
 #import "UIAlertView+Block.h"   /// UIAlertView 添加block回调
 
+#import "UIScrollView+ContentOffset.h"
+
 #endif /* UIKit_Categories_h */
