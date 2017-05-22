@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55365D631ED2CDF7004D0C79 /* NSObject+ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 55365D611ED2CDF7004D0C79 /* NSObject+ViewController.h */; };
+		55365D641ED2CDF7004D0C79 /* NSObject+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55365D621ED2CDF7004D0C79 /* NSObject+ViewController.m */; };
+		55365D671ED2D439004D0C79 /* UIViewController+ChildViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 55365D651ED2D439004D0C79 /* UIViewController+ChildViewController.h */; };
+		55365D681ED2D439004D0C79 /* UIViewController+ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55365D661ED2D439004D0C79 /* UIViewController+ChildViewController.m */; };
+		55365D6B1ED2D4F8004D0C79 /* UIView+SkitTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 55365D691ED2D4F8004D0C79 /* UIView+SkitTool.h */; };
+		55365D6C1ED2D4F8004D0C79 /* UIView+SkitTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 55365D6A1ED2D4F8004D0C79 /* UIView+SkitTool.m */; };
+		55365D701ED2D5D3004D0C79 /* KMQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 55365D6E1ED2D5D3004D0C79 /* KMQRCode.h */; };
+		55365D711ED2D5D3004D0C79 /* KMQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 55365D6F1ED2D5D3004D0C79 /* KMQRCode.m */; };
+		55365D741ED2DAFC004D0C79 /* NSObject+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 55365D721ED2DAFC004D0C79 /* NSObject+Helper.h */; };
+		55365D751ED2DAFC004D0C79 /* NSObject+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 55365D731ED2DAFC004D0C79 /* NSObject+Helper.m */; };
 		558F6D391ECEFCC6000CA8B6 /* UIScrollView+ContentOffset.h in Headers */ = {isa = PBXBuildFile; fileRef = 558F6D371ECEFCC6000CA8B6 /* UIScrollView+ContentOffset.h */; };
 		558F6D3A1ECEFCC6000CA8B6 /* UIScrollView+ContentOffset.m in Sources */ = {isa = PBXBuildFile; fileRef = 558F6D381ECEFCC6000CA8B6 /* UIScrollView+ContentOffset.m */; };
 		55F27D4B1EC05C040034B4C5 /* DCCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F27D491EC05C040034B4C5 /* DCCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -88,6 +98,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55365D611ED2CDF7004D0C79 /* NSObject+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ViewController.h"; sourceTree = "<group>"; };
+		55365D621ED2CDF7004D0C79 /* NSObject+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ViewController.m"; sourceTree = "<group>"; };
+		55365D651ED2D439004D0C79 /* UIViewController+ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ChildViewController.h"; sourceTree = "<group>"; };
+		55365D661ED2D439004D0C79 /* UIViewController+ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ChildViewController.m"; sourceTree = "<group>"; };
+		55365D691ED2D4F8004D0C79 /* UIView+SkitTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SkitTool.h"; sourceTree = "<group>"; };
+		55365D6A1ED2D4F8004D0C79 /* UIView+SkitTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SkitTool.m"; sourceTree = "<group>"; };
+		55365D6E1ED2D5D3004D0C79 /* KMQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMQRCode.h; sourceTree = "<group>"; };
+		55365D6F1ED2D5D3004D0C79 /* KMQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMQRCode.m; sourceTree = "<group>"; };
+		55365D721ED2DAFC004D0C79 /* NSObject+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Helper.h"; sourceTree = "<group>"; };
+		55365D731ED2DAFC004D0C79 /* NSObject+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Helper.m"; sourceTree = "<group>"; };
 		558F6D371ECEFCC6000CA8B6 /* UIScrollView+ContentOffset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ContentOffset.h"; sourceTree = "<group>"; };
 		558F6D381ECEFCC6000CA8B6 /* UIScrollView+ContentOffset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ContentOffset.m"; sourceTree = "<group>"; };
 		55F27D461EC05C040034B4C5 /* DCCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -192,6 +212,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55365D6D1ED2D5D3004D0C79 /* KMQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				55365D6E1ED2D5D3004D0C79 /* KMQRCode.h */,
+				55365D6F1ED2D5D3004D0C79 /* KMQRCode.m */,
+			);
+			path = KMQRCode;
+			sourceTree = "<group>";
+		};
 		55F27D3C1EC05C040034B4C5 = {
 			isa = PBXGroup;
 			children = (
@@ -247,6 +276,10 @@
 			children = (
 				55F27D571EC05D580034B4C5 /* NSObject+SwiizzleMethod.h */,
 				55F27D581EC05D580034B4C5 /* NSObject+SwiizzleMethod.m */,
+				55365D611ED2CDF7004D0C79 /* NSObject+ViewController.h */,
+				55365D621ED2CDF7004D0C79 /* NSObject+ViewController.m */,
+				55365D721ED2DAFC004D0C79 /* NSObject+Helper.h */,
+				55365D731ED2DAFC004D0C79 /* NSObject+Helper.m */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -293,6 +326,7 @@
 		55F27D741EC05D580034B4C5 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				55365D6D1ED2D5D3004D0C79 /* KMQRCode */,
 				55F27D751EC05D580034B4C5 /* UIAlertView */,
 				55F27D781EC05D580034B4C5 /* UIButton */,
 				55F27D7F1EC05D580034B4C5 /* UIColor */,
@@ -347,6 +381,8 @@
 			children = (
 				55F27D831EC05D580034B4C5 /* UIControl+Extension.h */,
 				55F27D841EC05D580034B4C5 /* UIControl+Extension.m */,
+				55365D651ED2D439004D0C79 /* UIViewController+ChildViewController.h */,
+				55365D661ED2D439004D0C79 /* UIViewController+ChildViewController.m */,
 			);
 			path = UIControl;
 			sourceTree = "<group>";
@@ -438,6 +474,8 @@
 				55F27DA81EC05D580034B4C5 /* UIView+Frame.m */,
 				558F6D371ECEFCC6000CA8B6 /* UIScrollView+ContentOffset.h */,
 				558F6D381ECEFCC6000CA8B6 /* UIScrollView+ContentOffset.m */,
+				55365D691ED2D4F8004D0C79 /* UIView+SkitTool.h */,
+				55365D6A1ED2D4F8004D0C79 /* UIView+SkitTool.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -473,10 +511,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55365D631ED2CDF7004D0C79 /* NSObject+ViewController.h in Headers */,
 				55F27DDE1EC05D580034B4C5 /* UINavigationController+PushFrame.h in Headers */,
 				55F27DB21EC05D580034B4C5 /* NSString+HTML.h in Headers */,
 				55F27DBE1EC05D580034B4C5 /* NSString+URLParameter.h in Headers */,
 				55F27DD31EC05D580034B4C5 /* UIDevice+DeviceType.h in Headers */,
+				55365D671ED2D439004D0C79 /* UIViewController+ChildViewController.h in Headers */,
 				55F27DC01EC05D580034B4C5 /* NSString+XML.h in Headers */,
 				55F27DAC1EC05D580034B4C5 /* NSObject+SwiizzleMethod.h in Headers */,
 				55F27DCF1EC05D580034B4C5 /* UIColor+HexColor.h in Headers */,
@@ -493,6 +533,7 @@
 				55F27DB81EC05D580034B4C5 /* NSString+SafeVerify.h in Headers */,
 				55F27DDC1EC05D580034B4C5 /* UILabel+Size.h in Headers */,
 				55F27DBC1EC05D580034B4C5 /* NSString+URLEncode.h in Headers */,
+				55365D6B1ED2D4F8004D0C79 /* UIView+SkitTool.h in Headers */,
 				55F27DAA1EC05D580034B4C5 /* NSDictionary+json.h in Headers */,
 				55F27DD91EC05D580034B4C5 /* UIImage+Square.h in Headers */,
 				55F27DEA1EC05D580034B4C5 /* UIView+Capture.h in Headers */,
@@ -506,8 +547,10 @@
 				55F27DC21EC05D580034B4C5 /* Macros.h in Headers */,
 				55F27DC91EC05D580034B4C5 /* UIButton+BadgeValue.h in Headers */,
 				55F27DEC1EC05D580034B4C5 /* UIView+Frame.h in Headers */,
+				55365D741ED2DAFC004D0C79 /* NSObject+Helper.h in Headers */,
 				55F27DC51EC05D580034B4C5 /* Macros_Font.h in Headers */,
 				55F27DB01EC05D580034B4C5 /* NSString+Date.h in Headers */,
+				55365D701ED2D5D3004D0C79 /* KMQRCode.h in Headers */,
 				55F27DD71EC05D580034B4C5 /* UIImage+Scale.h in Headers */,
 				55F27DC31EC05D580034B4C5 /* Macros_ClangAttributes.h in Headers */,
 				55F27DE61EC05D580034B4C5 /* UITextField+image.h in Headers */,
@@ -623,19 +666,23 @@
 				55F27DED1EC05D580034B4C5 /* UIView+Frame.m in Sources */,
 				55F27DBF1EC05D580034B4C5 /* NSString+URLParameter.m in Sources */,
 				55F27DAB1EC05D580034B4C5 /* NSDictionary+json.m in Sources */,
+				55365D681ED2D439004D0C79 /* UIViewController+ChildViewController.m in Sources */,
 				55F27DEB1EC05D580034B4C5 /* UIView+Capture.m in Sources */,
 				55F27DE71EC05D580034B4C5 /* UITextField+image.m in Sources */,
+				55365D751ED2DAFC004D0C79 /* NSObject+Helper.m in Sources */,
 				55F27DAF1EC05D580034B4C5 /* NSString+base64.m in Sources */,
 				55F27DDD1EC05D580034B4C5 /* UILabel+Size.m in Sources */,
 				55F27DB31EC05D580034B4C5 /* NSString+HTML.m in Sources */,
 				55F27DCA1EC05D580034B4C5 /* UIButton+BadgeValue.m in Sources */,
 				55F27DCC1EC05D580034B4C5 /* UIButton+Block.m in Sources */,
+				55365D641ED2CDF7004D0C79 /* NSObject+ViewController.m in Sources */,
 				55F27DE31EC05D580034B4C5 /* UINavigationItem+Extension.m in Sources */,
 				558F6D3A1ECEFCC6000CA8B6 /* UIScrollView+ContentOffset.m in Sources */,
 				55F27DD81EC05D580034B4C5 /* UIImage+Scale.m in Sources */,
 				55F27DDA1EC05D580034B4C5 /* UIImage+Square.m in Sources */,
 				55F27DD41EC05D580034B4C5 /* UIDevice+DeviceType.m in Sources */,
 				55F27DC11EC05D580034B4C5 /* NSString+XML.m in Sources */,
+				55365D6C1ED2D4F8004D0C79 /* UIView+SkitTool.m in Sources */,
 				55F27DBB1EC05D580034B4C5 /* NSString+Size.m in Sources */,
 				55F27DD21EC05D580034B4C5 /* UIControl+Extension.m in Sources */,
 				55F27DAD1EC05D580034B4C5 /* NSObject+SwiizzleMethod.m in Sources */,
@@ -643,6 +690,7 @@
 				55F27DC81EC05D580034B4C5 /* UIAlertView+Block.m in Sources */,
 				55F27DDF1EC05D580034B4C5 /* UINavigationController+PushFrame.m in Sources */,
 				55F27DB11EC05D580034B4C5 /* NSString+Date.m in Sources */,
+				55365D711ED2D5D3004D0C79 /* KMQRCode.m in Sources */,
 				55F27DD01EC05D580034B4C5 /* UIColor+HexColor.m in Sources */,
 				55F27DE51EC05D580034B4C5 /* UITabBar+badge.m in Sources */,
 				55F27DE91EC05D580034B4C5 /* UITextView+Placeholder.m in Sources */,
