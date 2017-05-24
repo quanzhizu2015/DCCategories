@@ -27,4 +27,17 @@
     return NO;
 }
 
++(void)setObject:(id)object key:(NSString *)key{
+    
+     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+     [userDefaults setObject:object forKey:key];
+    
+}
++(id)getObjectWithKey:(NSString *)key{
+    
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    id object = [userDefaults objectForKey:key];
+    return object;
+}
+
 @end

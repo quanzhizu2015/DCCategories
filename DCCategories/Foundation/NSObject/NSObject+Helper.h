@@ -14,4 +14,7 @@
 
 +(BOOL)isNull:(id)object;
 
++(void)setObject:(id)object key:(NSString *)key;
++(id)getObjectWithKey:(NSString *)key;
+
 @end
