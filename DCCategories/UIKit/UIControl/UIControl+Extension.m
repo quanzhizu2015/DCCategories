@@ -11,9 +11,22 @@
 @implementation UIControl (Extension)
 
 + (void)load {
-    Method a = class_getInstanceMethod(self, @selector(sendAction:to:forEvent:));
-    Method b = class_getInstanceMethod(self, @selector(uxy_sendAction:to:forEvent:));
-    method_exchangeImplementations(a, b);
+    
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        SEL sela = @selector(sendAction:to:forEvent:);
+        SEL selb = @selector(uxy_sendAction:to:forEvent:);
+        
+        Method a = class_getInstanceMethod([self class], @selector(sendAction:to:forEvent:));
+        Method b = class_getInstanceMethod([self class], @selector(uxy_sendAction:to:forEvent:));
+        
+        if (class_addMethod([self class], sela, b, method_getTypeEncoding(b))) {
+            class_replaceMethod([self class], selb, a, method_getTypeEncoding(sela));
+        }else{
+            method_exchangeImplementations(a, b);
+        }
+        
+    });
 }
 
 - (void)uxy_sendAction:(SEL)action to:(id)target forEvent:(UIEvent *)event {
