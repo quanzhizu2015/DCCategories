@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#define NAVIITEM_INTERVAL 0.5
+#define NAVIITEM_INTERVAL 0.0
 @interface UIControl (Extension)
 /**
  *  两次响应之间的时间间隔

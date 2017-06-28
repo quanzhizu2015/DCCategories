@@ -31,7 +31,7 @@
 
 #pragma mark - UIControl
 
-#import "UIControl+Extension.h"   /// 相应时间间隔
+//#import "UIControl+Extension.h"   /// 相应时间间隔
 
 #pragma mark - UIDevice
 
