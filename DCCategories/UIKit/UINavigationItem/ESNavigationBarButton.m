@@ -17,7 +17,7 @@
 
 + (instancetype)buttonWithImageName:(NSString *)imageName; {
     ESNavigationBarButton *button = [super buttonWithType:UIButtonTypeSystem];
-    button.acceptEventInterval = NAVIITEM_INTERVAL;
+   // button.acceptEventInterval = NAVIITEM_INTERVAL;
     [button setImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
     
     button.tintColor = ColorRGB(34, 34, 34);
@@ -31,7 +31,7 @@
 
 + (instancetype)buttonWithTitle:(NSString *)title; {
     ESNavigationBarButton *button = [ESNavigationBarButton buttonWithType:UIButtonTypeSystem];
-    button.acceptEventInterval = NAVIITEM_INTERVAL;
+   // button.acceptEventInterval = NAVIITEM_INTERVAL;
     [button setTitle:title forState:UIControlStateNormal];
     [button setTitleColor:ColorRGB(34, 34, 34) forState:UIControlStateNormal];
     button.titleLabel.textAlignment = NSTextAlignmentCenter;
