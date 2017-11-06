@@ -32,7 +32,7 @@
     NSString *string;
     for (NSString *key in dict.allKeys) {
         if (string) {
-            string = [string stringByAppendingFormat:@"%@&%@=%@", string, key, dict[key]];
+            string = [NSString stringWithFormat:@"%@&%@=%@", string, key, dict[key]];
         }
         else {
             string = [NSString stringWithFormat:@"%@=%@", key, dict[key]];

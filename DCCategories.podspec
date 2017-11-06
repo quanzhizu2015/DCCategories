@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DCCategories"
-  s.version      = "1.8"
+  s.version      = "1.9"
   s.summary      = "扩展分类"
 
   # This description is used to generate tags and improve search results.
