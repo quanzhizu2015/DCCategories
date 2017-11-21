@@ -32,8 +32,12 @@
     if ([deviceString isEqualToString:@"iPhone7,2"])    return @"iPhone 6";
     if ([deviceString isEqualToString:@"iPhone8,1"])    return @"iPhone 6s";
     if ([deviceString isEqualToString:@"iPhone8,2"])    return @"iPhone 6s Plus";
-    if ([deviceString isEqualToString:@"iPhone9,1"])    return @"iPhone7";
-    if ([deviceString isEqualToString:@"iPhone9,2"])    return @"iPhone7Plus";
+    if ([deviceString isEqualToString:@"iPhone9,1"] || [deviceString isEqualToString:@"iPhone9,3"])    return @"iPhone 7";
+    if ([deviceString isEqualToString:@"iPhone9,2"] || [deviceString isEqualToString:@"iPhone9,4"])    return @"iPhone 7 Plus";
+    
+    if ([deviceString isEqualToString:@"iPhone10,1"] || [deviceString isEqualToString:@"iPhone10,4"])    return @"iPhone 8";
+    if ([deviceString isEqualToString:@"iPhone10,2"] || [deviceString isEqualToString:@"iPhone10,5"])    return @"iPhone 8 Plus";
+    if ([deviceString isEqualToString:@"iPhone10,3"] || [deviceString isEqualToString:@"iPhone10,6"])    return @"iPhone X";
     // iPod
     if ([deviceString isEqualToString:@"iPod1,1"])      return @"iPod Touch 1G";
     if ([deviceString isEqualToString:@"iPod2,1"])      return @"iPod Touch 2G";
