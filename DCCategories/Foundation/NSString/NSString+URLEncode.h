@@ -16,4 +16,8 @@
 // 解码
 @property (assign ,nonatomic,readonly) NSString *URLDeCode;
 
+- (NSString *)URLEncodeCustom;
+
+- (NSString *)URLDeCodeCustom;
+
 @end
